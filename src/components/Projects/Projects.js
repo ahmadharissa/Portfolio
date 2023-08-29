@@ -4,7 +4,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
 //Assets
-import chatify from "../../Assets/Projects/chatify.png";
+import TVC from "../../Assets/Projects/TVC.png";
+import Kawwen from "../../Assets/Projects/Kawwen.png";
+import Mehnati from "../../Assets/Projects/Mehnati.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 
 function Projects() {
   return (
@@ -19,12 +22,38 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={TVC}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TVC"
+              description="We at The Volunteer Circle believe it is time to take charge by creating a platform for skill-sharing across all areas of Lebanon, we match enthusiastic volunteers, community services, experience seekers, and multi-talented individuals with the cause that needs them the most."
+              demoLink="http://164.90.155.155/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kawwen}
+              isBlog={false}
+              title="kawwen"
+              description="Kawwen is a directory of quality programs offered in Lebanon to equip you with the most in-demand skills to boost your career."
+              demoLink="https://kawwen.website/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Mehnati}
+              isBlog={false}
+              title="Mehnati"
+              description="Mehnati is an online platform dedicated to raising awareness about vocational and technical education in Lebanon. This website introduces academic school students to the aspects of vocational education and guides them through the process of career development, by assessing their skills and helping them explore their career path, develop their abilities, as well as plan for their future."
+              demoLink="http://167.172.190.2/?search="
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={true}
+              title="Portfolio"
+              description="Portfolio is a website to introduce ahmad harissa."
+              ghLink="https://github.com/ahmadharissa/portfolio"
             />
           </Col>
         </Row>
