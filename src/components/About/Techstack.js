@@ -7,8 +7,11 @@ import {
   DiMongodb,
   DiGit,
   DiJava,
+  DiJavascript,
+  DiMysql,
 } from "react-icons/di";
-import { IoMdGitNetwork } from "react-icons/io";
+import { SiExpress, SiRedux, SiNestjs, SiPrisma, SiPhp } from "react-icons/si";
+import { FaCss3Alt } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -20,19 +23,40 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <IoMdGitNetwork />
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCss3Alt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
     </Row>
   );
