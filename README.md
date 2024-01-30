@@ -22,8 +22,8 @@ My personal portfolio <a href="https://portfolio-ahmadharissa.vercel.app/" targe
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
+- Html
+- javaScript
 - CSS
 - VsCode
 
