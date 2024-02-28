@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="TVC"
               description="We at The Volunteer Circle believe it is time to take charge by creating a platform for skill-sharing across all areas of Lebanon, we match enthusiastic volunteers, community services, experience seekers, and multi-talented individuals with the cause that needs them the most."
-              demoLink="http://164.90.155.155/"
+              demoLink="https://potal.thevolunteercircle.hostbotics.net/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -44,7 +44,7 @@ function Projects() {
               isBlog={false}
               title="Mehnati"
               description="Mehnati is an online platform dedicated to raising awareness about vocational and technical education in Lebanon. This website introduces academic school students to the aspects of vocational education and guides them through the process of career development, by assessing their skills and helping them explore their career path, develop their abilities, as well as plan for their future."
-              demoLink="http://167.172.190.2/?search="
+              demoLink="https://jobs.mehnati.hostbotics.net/"
             />
           </Col>
           <Col md={4} className="project-card">
