@@ -8,7 +8,7 @@ import TVC from "../../Assets/Projects/TVC.png";
 import Kawwen from "../../Assets/Projects/Kawwen.png";
 import Mehnati from "../../Assets/Projects/Mehnati.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import tabadol from "../../Assets/Projects/tabadol.png";
+import tabadol from "../../Assets/Projects/tabadol.jpeg";
 
 function Projects() {
   return (
