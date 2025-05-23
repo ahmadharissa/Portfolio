@@ -27,18 +27,10 @@ function Projects() {
               isBlog={false}
               title="TVC"
               description="We at The Volunteer Circle believe it is time to take charge by creating a platform for skill-sharing across all areas of Lebanon, we match enthusiastic volunteers, community services, experience seekers, and multi-talented individuals with the cause that needs them the most."
-              demoLink="https://portal.thevolunteercircle.com/"
+              demoLink="https://thevolunteercircle.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Kawwen}
-              isBlog={false}
-              title="kawwen"
-              description="Kawwen is a directory of quality programs offered in Lebanon to equip you with the most in-demand skills to boost your career."
-              demoLink="https://kawwen.website/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Mehnati}
@@ -48,6 +40,7 @@ function Projects() {
               demoLink="https://jobs.mehnati.hostbotics.net/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tabadol}
@@ -57,6 +50,17 @@ function Projects() {
               demoLink="https://frontend.tabadol.hostbotics.net/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kawwen}
+              isBlog={false}
+              title="kawwen"
+              description="Kawwen is a directory of quality programs offered in Lebanon to equip you with the most in-demand skills to boost your career."
+              demoLink="https://kawwen.website/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
