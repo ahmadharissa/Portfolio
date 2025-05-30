@@ -9,6 +9,8 @@ import Kawwen from "../../Assets/Projects/Kawwen.png";
 import Mehnati from "../../Assets/Projects/Mehnati.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import tabadol from "../../Assets/Projects/tabadol.jpeg";
+import gulffood from "../../Assets/Projects/gulffood.png";
+import royal from "../../Assets/Projects/royal-chartered-bankers.png";
 
 function Projects() {
   return (
@@ -21,6 +23,25 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={royal}
+              isBlog={false}
+              title="royal-chartered-bankers"
+              description="Welcome to Royal Chartered Bankers Your Trusted Partner in Forex Trading and Investment"
+              demoLink="https://rcbankers.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gulffood}
+              isBlog={false}
+              title="gulffood"
+              description="Gulfood is the main food and beverage trade show, while Gulfood Manufacturing focuses specifically on food tech and manufacturing innovations."
+              demoLink="https://gulffood.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TVC}
@@ -54,7 +75,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Kawwen}
-              isBlog={false}
+              isBlog={t}
               title="kawwen"
               description="Kawwen is a directory of quality programs offered in Lebanon to equip you with the most in-demand skills to boost your career."
               demoLink="https://kawwen.website/"
