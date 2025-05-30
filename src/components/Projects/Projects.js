@@ -11,6 +11,7 @@ import Portfolio from "../../Assets/Projects/Portfolio.png";
 import tabadol from "../../Assets/Projects/tabadol.jpeg";
 import gulffood from "../../Assets/Projects/gulffood.png";
 import royal from "../../Assets/Projects/royal-chartered-bankers.png";
+import Signals from "../../Assets/Projects/Signals.png";
 
 function Projects() {
   return (
@@ -42,6 +43,17 @@ function Projects() {
               demoLink="https://gulffood.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Signals}
+              isBlog={false}
+              title="Signals"
+              description="Signals is a website for market price monitoring (gold, oil, silver, etc.)"
+              demoLink="https://signals-6yqb.onrender.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TVC}
@@ -75,7 +87,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Kawwen}
-              isBlog={t}
+              isBlog={false}
               title="kawwen"
               description="Kawwen is a directory of quality programs offered in Lebanon to equip you with the most in-demand skills to boost your career."
               demoLink="https://kawwen.website/"
