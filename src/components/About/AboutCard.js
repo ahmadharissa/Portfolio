@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ahmad Harissa </span>
-            <br /> I am 25 years old, I live in Choeifet Beirut.
+            <br /> I am 27 years old, I live in Choeifet Beirut.
             <br /> I have Baccoloriets and bachelor in computer sience.
             <br />
             In addition to 2 certificates in corsera.
