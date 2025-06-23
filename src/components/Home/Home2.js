@@ -21,7 +21,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, C#, Html and Css. </b>
+                <b className="purple"> Javascript, Html and Css. </b>
               </i>
               <br />
               <br />
